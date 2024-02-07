@@ -1,0 +1,92 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    color:#666;
+}
+.pimag1{
+    background-image: url(nature1.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.text{
+    margin: 0;
+    padding: 10px;
+    background-color:#313534;
+}
+.section-text h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+}
+.section-text{
+    padding: 5px 10px;
+    background-color: #ffff;
+    color:gray;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-size: 20px;
+}
+.pimag2{
+    background-image: url(image2.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-text2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+}
+.section-text2{
+    padding: 5px 10px;
+    background-color: #282e34;
+    color:#666;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-size: 20px;
+}
+.pimag3{
+    background-image: url(image3.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-text3 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+}
+.section-text3{
+    padding: 5px 10px;
+    background-color: #282e34;
+    color:#666;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-size: 20px;
+}

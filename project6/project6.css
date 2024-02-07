@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+header{
+    background-color: #281154;
+    position: sticky;
+    top:0px;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.nav ul{
+    display: flex;
+    gap:20px;
+    padding-top: 10px;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+
+}
+.hero-section{
+    background-image: url(image2.jpg);
+    height:100vh;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+    
+}
+.hero-section  .container{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.hero-section h1{
+    font-size: 96px;
+    font-family:'Courier New', Courier, monospace;
+}
+.hero-section h3{
+    font-size: 32px;
+}
+.content-section{
+    background-color: #281154;
+}
+.music-section {
+   padding-top: 50px;
+   
+    background-color: #281154;
+    
+}
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height:500px;
+
+
+}
+
+.image{
+    position: relative;
+    padding-left: 300px;
+   
+    
+    
+}
+button{
+    padding: 10px 15px;
+    border:none;
+    transition: 0.2s ease-in-out;
+}
+button :hover{
+    
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+.primary-btn{
+    background-color: red;
+    color:white;
+}
+.secondary-btn{
+    background-color: #281154;
+    color: white;
+}
+.about-music{
+    padding-top: 100px;
+    display: grid;
+    place-items: center;
+    gap:50px;
+    text-align: center;
+
+}
+.about-music h3{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.images{
+    padding-left: 350px;
+    margin-top: 50px;
+}
+.video-section{
+    background-image: url(video.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:500px ; 
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    
+}
+.video-section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top: -200px;
+}
+.gift-section{
+    display: flex;
+    justify-content: center;
+    margin: 100px ;
+    gap:50px;
+}
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-upper{
+    background-color: #281154;
+    padding: 20px;
+}
+.footer-upper .container{
+    display:flex;
+    color:white;
+    justify-content: space-between;
+}
+.footer-upper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.footer-lower{
+    background-color:#281154;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+.gift-section{
+    scroll-margin: 120px;
+}

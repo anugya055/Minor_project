@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1,4;
+    font-weight: 300;
+}
+.hero{
+    background-image: url(image5.avif);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+.text_container{
+    color:white;
+    max-width: 900px;
+    margin:0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 72px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 400;
+}
+.black_box{
+    background-color: black;
+    padding: 20px;
+}
+.black_box h2{
+    color: white;
+    font-size:50px;
+    font-weight:200 ;
+    text-align: center;
+}
+.black_box span{
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.card{
+    height:500px;
+    width:100%;
+    background-color:white;
+    display: flex;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   padding: 100px 80px 100px 100px;
+   
+}
+    
+.card1 ,.card2 ,.card3{
+    height:300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    margin-top:60px ;
+    margin-bottom: 100px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    border:2px solid black; 
+    box-shadow: 3px 5px 5px rgba(1,1,1.0.2);
+    
+    
+    
+    
+    
+}
+.img_container1{
+    height: 300px;
+    width:300px;
+    background-image: url(images/web.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+   
+   
+.img_container2{
+        height: 300px;
+        width:300px;
+        background-image: url(images/app.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    
+}
+    
+
+
+.img_container3{
+    height: 300px;
+    width:300px;
+    background-image: url(images/UI-UX.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.content_container{
+    height:126px;
+    width:300px;
+    color:black;
+}
+.content_container h2{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+.bottom_section{
+    display:flex;
+}
+.Contact{
+    background-color: #515603;
+}
+.about{
+    background-color: #722300;
+}
+.Contact,.about{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+.about p,.Contact p{
+    margin-bottom: 20px;
+}
+.about h2,.Contact h2{
+    font-size: 64px;
+    font-weight: 300;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+}
